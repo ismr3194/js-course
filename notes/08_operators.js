@@ -155,4 +155,60 @@ null
 // let b = 10
 // b && console.log('Выполнено!')
 
+/*
+Оператор разделения объекта на свойства ...
+*/
+
+// const button = {
+//     width: 200,
+//     text: 'Buy'
+// }
+
+// const redButton = {
+//     ...button,
+//     color: 'red'
+// }
+
+// console.table(redButton)
+
+//Пример объединение объектов с помощью ...
+
+// const buttonInfo = {
+//     text: 'Buy'
+// }
+
+// const buttonStyle = {
+//     color: 'yellow',
+//     width: 200,
+//     height: 300
+// }
+
+// const button = {
+//     ...buttonInfo,
+//     ...buttonStyle
+// }
+
+// console.table(button)
+
+/*
+Конкатенация строк
+
+Оператор + для конкатенации строк
+
+*/
+
+// const hello = 'Hello'
+// const world = 'World'
+
+// const greeting = hello + ' ' + world
+
+// Шаблонные строки
+// const greeting = `${hello} ${world}`
+
+// console.log(greeting)
+
+
+
+
+
 
