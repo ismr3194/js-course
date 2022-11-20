@@ -150,12 +150,50 @@ console.dir(myFn)
 
 // Если один параметр, то крыглые функции скобки можно опустить
 
-a => {
-    // Тело функции
-}
+// a => {
+//     // Тело функции
+// }
 
 // Если скобки можно опустить если тело функции состоит из одного выражения
 
-(a, b) => a + b // в этом случае стрелочная функция неявно возвращает результат выражения (в этом случае return не нужно использовать)
+// (a, b) => a + b // в этом случае стрелочная функция неявно возвращает результат выражения (в этом случае return не нужно использовать)
 
+// function multByFactor (value, multiplier = 1) {
+//     return value * multiplier
+// }
 
+// const multByFactor = function(value, multiplier = 1) {
+//     return value * multiplier
+// }
+
+// const multByFactor = (value, multiplier = 1) => value * multiplier
+
+// console.log(multByFactor(10, 2))
+// console.log(multByFactor(5))
+
+// Значение параметров функций по умолчанию
+
+// Пример 2
+
+// const newPost = (post, addedAt = Date()) => ({
+//     ...post, // Неявный возврат объекта
+//     addedAt
+// })
+
+// Задание: нужно переписать с явным возвратом объекта
+
+// const newPost = (post, addedAT = Date()) => {
+//     const newObject = {
+//         ...post,
+//         addedAT
+//     }
+
+//     return newObject
+// }
+
+// const firstPost = {
+//     ad:1,
+//     author: 'Samad'
+// }
+
+// console.log(newPost(firstPost))
