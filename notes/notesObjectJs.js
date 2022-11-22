@@ -125,10 +125,20 @@ globalThis.console.log()
 // myCity.cityCreeting() // вызов метода
 // // 'Creeting!!'
 
+/*
+Деструктуризация объектов
+*/
 
+const userProfile = {
+    name: 'Samad',
+    comentsQty: 23,
+    hasSignedAgreement: false,
+}
 
+const {name, comentsQty} = userProfile
 
-
+console.log(name)
+console.log(comentsQty)
 
 
 

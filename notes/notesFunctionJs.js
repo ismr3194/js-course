@@ -197,3 +197,23 @@ console.dir(myFn)
 // }
 
 // console.log(newPost(firstPost))
+
+// Деструктуризация в функциях
+
+const userProfile = {
+    name: 'Samad',
+    commentsQty: 23,
+    hasSignedAgreement: false,
+}
+
+// const userInfo = ({name, commentsQty}) => {
+//     if (!commentsQty) {
+//         return `User ${name} has no comments`
+//     }
+
+//     return `User ${name} has ${commentsQty} comments` 
+// }
+
+// дописать !!!
+
+console.log(userInfo(userProfile))

@@ -156,8 +156,8 @@
 // map (перебирает каждый эл. массива и позволяет выполнять действие над каждый эл. массива) 
 // возвращает новый массив, не мутирует исходный массив
 
-const myArray = [1, 2, 3]
-console.log(myArray) // [ 1, 2, 3 ]
+// const myArray = [1, 2, 3]
+// console.log(myArray) // [ 1, 2, 3 ]
 
 // const newArray = myArray.map(el => el * 3)
 // console.log(newArray) // [ 3, 6, 9 ]
@@ -169,6 +169,17 @@ console.log(myArray) // [ 1, 2, 3 ]
 // console.log(newArray) // [ undefined, undefined, undefined ]
 // console.log(myArray) // [ 1, 2, 3 ]
 // Оригинальный массив не изменился
+
+// Деструктуризация массивов
+
+const fruits = ['Apple', 'Banana']
+
+const [fruitOne, fruitTwo] = fruits
+
+// Объявление новых переменных и присваивание значений на основе элементов массива
+console.log(fruitOne) // Apple
+console.log(fruitTwo) // Banana
+
 
 
 
